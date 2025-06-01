@@ -1,0 +1,32 @@
+function App() {
+  return (
+    <div style={{ backgroundColor: "#D8BFD8", padding: "20px" }}>
+      <p>
+        <big><strong><i>Светова Ульяна Дмитриевна</i></strong></big><br />
+        <u>2007 года рождения</u><br />
+        <small>Самара</small><br />
+        <small>Партизанская 176А</small><br />
+        Школа №66
+      </p>
+      <ol>
+        <li>Математическое моделирование</li>
+        <li>Алгоритмизация и программирование</li>
+        <li>Архитектура аппаратных средств</li>
+        <li>Основы компьютерной графики</li>
+        <li>Технология разработки ПО</li>
+        <li>Иностранный язык</li>
+      </ol>
+      <ul>
+        <li>Шашлык</li>
+        <li>Пастуший пирог</li>
+        <li>Овощное рагу</li>
+        <li>Арбуз</li>
+        <li>Острый рамен</li>
+      </ul>
+      <form action="/Светова2.html">
+        <input type="submit" value="Нажмите)" />
+      </form>
+    </div>
+  );
+}
+export default App;
